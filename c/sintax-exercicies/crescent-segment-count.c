@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+/*
+ * Função: Conta o comprimento do maior segmento crescente em uma sequência de inteiros.
+ * Entrada: sequência de inteiros informada pelo usuário (termina quando o usuário indicar 'N').
+ * Saída: imprime o comprimento do maior segmento crescente.
+ */
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(){
 
@@ -27,7 +34,7 @@ int main(){
             }
             if (numero < numero_max && cont_max <= cont){                      //com numero menor que o maximo crescente, o contador encerra e adiciona o cont somado ao cont_max
                 cont_max = cont;
-                cont = 0;                                                     //na mesma condicional ele verifica se esse cont somado é maior que o cont já registrado(cont_max)
+                cont = 0;                                                     //na mesma condicional ele verifica se esse cont somado \u00e9 maior que o cont j\u00e1 registrado(cont_max)
                 numero = 0;
                 numero_max = 0;
             }                                                                        //Isso foi feito pois mesmo com o numero crescente o usuario podera criar outro seguimento(afinal, o codigo so encerra com o NAO dele),
@@ -49,6 +56,6 @@ int main(){
         printf("Com apenas um ponto, nao possui seguimento crescente de comprimento maximo.");
     }
 
-    printf("Comprimento do segmento crescente de comprimento máximo: %d", cont_max);
+    printf("Comprimento do segmento crescente de comprimento m\u00e1ximo: %d", cont_max);
     
 }

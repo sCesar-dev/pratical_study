@@ -2,13 +2,19 @@
 #include <stdlib.h>
 
 char* meuStrcpy(char *dest, const char *src){
+/*
+ * Função: Implementação simples de strcpy (copia string fonte para destino).
+ * Entrada: ponteiro destino e ponteiro fonte.
+ * Saída: retorna o ponteiro destino.
+ */
+
     while(*src != '\0'){
         *dest = *src;
         *dest++;
         *src++;
     }
     *dest = '\0';
-    return 0;
+    return dest; // Corrected return value to return the destination pointer
 }
 
 int main(){
@@ -20,3 +26,6 @@ int main(){
     }
     return 0;
 }
+    
+    
+    

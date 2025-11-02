@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+/*
+ * Função: Teste de leitura de string do stdin (fgets/scanf).
+ * Entrada: string via stdin.
+ * Saída: imprime a string lida.
+ */
 
 int main(void){
     // char nome[30];

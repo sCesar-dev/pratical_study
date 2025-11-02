@@ -1,3 +1,8 @@
+/*
+ * Função: Gera e imprime um quadrado mágico de ordem ímpar.
+ * Entrada: dimensão ímpar para a matriz.
+ * Saída: impressão da matriz com valores posicionados conforme algoritmo do quadrado mágico.
+ */
 #include <stdio.h>
 #include <stdio.h>
 

@@ -1,3 +1,11 @@
+
+"""Função: Ordena uma lista usando Bubble Sort (exemplo didático).
+
+Entrada: lista de números
+Saída: ordena a lista in-place e imprime os valores ordenados
+
+"""
+
 def bubble_sort(arr):
     for i in range(0, len(arr) - 1):
         for j in range(0, len(arr) - 1):

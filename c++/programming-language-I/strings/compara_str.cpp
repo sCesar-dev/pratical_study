@@ -1,3 +1,8 @@
+/*
+ * Função: Verifica se todos os caracteres de arr1 aparecem em arr2 na mesma ordem.
+ * Entrada: duas strings (char pointers).
+ * Saída: imprime "true" ou "false".
+ */
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,8 @@
+/*
+ * Função: Calcula o fatorial de um número inteiro não-negativo.
+ * Entrada: número inteiro >= 0.
+ * Saída: impressão do fatorial no stdout.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 

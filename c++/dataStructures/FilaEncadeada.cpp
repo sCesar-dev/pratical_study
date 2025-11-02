@@ -1,3 +1,7 @@
+/*
+ * Função: Implementação de métodos para uma fila encadeada simples
+ * Entrada/Saída: operações de inserção e remoção de elementos em memória
+ */
 #include "FilaEncadeada.hpp"
 
 FilaEncadeada::FilaEncadeada()

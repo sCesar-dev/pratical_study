@@ -1,3 +1,8 @@
+/*
+ * Função: Converte um número decimal para sua representação binária.
+ * Entrada: numero inteiro decimal (positivo).
+ * Saída: impressão no stdout da representação binária.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,7 +32,7 @@ int main()
 
     }
 
-    for ( i = i-1;i >= 0; i--){     //ele imprime a entrada na ordem decrescente, seguindo padrao de representação padrao do binario
+    for ( i = i-1;i >= 0; i--){     //ele imprime a entrada na ordem decrescente, seguindo padrao de representação do binario
         printf("%d", binario[i]);
     }
 }

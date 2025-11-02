@@ -1,3 +1,7 @@
+/*
+ * Função: Cabeçalhos e definição da classe FilaEncadeada (fila encadeada simples).
+ * Contém a declaração do nó e da interface da fila.
+ */
 #include <iostream>
 #include <string>
 

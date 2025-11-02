@@ -1,3 +1,8 @@
+/*
+ * Função: Coleta registros com nome, sexo e altura e calcula estatísticas (maior, menor e médias).
+ * Entrada: várias entradas do usuário (até 50) com nome, sexo (F/M) e altura.
+ * Saída: imprime maior/menor altura e médias.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,7 +20,7 @@ int main(){
         printf("Digite o nome(max 30 caracteres): ");
         /*fgets(nome, sizeof(nome), stdin);*/
         scanf(" %s", nome);
-        setbuf(stdin, NULL);                //limpar o buffer do nome, pois quando o laço repetia, ele adicionava o ultimo termo
+        setbuf(stdin, NULL);                //limpar o buffer do nome, pois quando o la\u00e7o repetia, ele adicionava o ultimo termo
         
         printf("\nDigite a altura(max 2.5m): ");
         scanf(" %lf", &altura);

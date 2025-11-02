@@ -1,3 +1,8 @@
+/*
+ * Função: Simula a redução de massa pela metade em passos e calcula o tempo estimado.
+ * Entrada: massa inicial (gramas).
+ * Saída: imprime massa inicial, massa final e tempo estimado em horas/minutos/segundos.
+ */
 #include <stdio.h>
 
 int main(){

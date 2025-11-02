@@ -1,3 +1,8 @@
+/*
+ * Função: Imprime os primeiros termos da sequência de Fibonacci.
+ * Entrada: (nenhuma) — atualmente fixa em 16 termos.
+ * Saída: impressão dos termos e somas parciais no stdout.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 

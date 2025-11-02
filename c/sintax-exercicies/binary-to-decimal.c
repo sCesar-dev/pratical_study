@@ -1,3 +1,8 @@
+/*
+ * Função: Converte uma sequência binária (entrada pelo usuário) para decimal.
+ * Entrada: número de dígitos e cada dígito (0/1).
+ * Saída: impressão do valor decimal correspondente.
+ */
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>

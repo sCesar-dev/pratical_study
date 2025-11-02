@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
-1 - Escrever um algoritmo que leia 3 valores a,b,c. 
-Calcule e escreve a média ponderada com pesos = 5 para números acima de 6 e 
-peso = 2,5 para números abaixo de 6.
-*/
 
+/*
+ * Função: Calcula a média ponderada de três valores usando pesos diferentes
+ *          dependendo se cada valor é maior, menor ou igual a 6.
+ * Entrada: três valores reais (n1, n2, n3) informados pelo usuário.
+ * Saída: impressão da média ponderada no stdout.
+ */
 int main(){
 
     float n1, n2, n3, media, soma;

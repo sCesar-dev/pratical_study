@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/*
+ * Função: Verifica se uma sequência de algarismos forma um palíndromo.
+ * Entrada: quantidade de algarismos e os algarismos em sequência.
+ * Saída: imprime se é ou não um palíndromo.
+ */
+#include <stdio.h>
+
 int main(){
     int tot_rep, i, algarismo[10];
 
