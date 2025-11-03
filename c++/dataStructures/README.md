@@ -15,7 +15,3 @@ Como compilar/executar um exemplo:
 ```bash
 g++ -std=c++17 ListaCircular.cpp -o lista && ./lista
 ```
-
-Sugestões:
-- Compare as implementações com as versões STL (`std::vector`, `std::list`, `std::stack`, `std::queue`).
-- Adicione tratamento de memória e testes para evitar leaks (use `valgrind` para analisar).

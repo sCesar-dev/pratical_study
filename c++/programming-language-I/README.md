@@ -16,7 +16,3 @@ Como compilar:
 ```bash
 g++ -std=c++17 arquivo.cpp -o arquivo && ./arquivo
 ```
-
-Recomendações:
-- Reescreva exemplos usando boas práticas (centralizar lógica em funções, evitar variáveis globais).
-- Experimente ferramentas de análise estática e detectores de memory leak.

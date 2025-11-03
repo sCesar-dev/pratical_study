@@ -15,9 +15,3 @@ Como compilar/executar (exemplo rápido):
 # compilar um arquivo cpp
 g++ -std=c++17 arquivo.cpp -o arquivo && ./arquivo
 ```
-
-Sugestões de estudo:
-- Abra os arquivos nas subpastas e execute os exemplos individualmente.
-- Converta implementações para usar templates quando fizer sentido (generalizar listas/pilhas).
-
-Se quiser, posso gerar README detalhados por subpasta (árvore, estruturas, sintaxe).

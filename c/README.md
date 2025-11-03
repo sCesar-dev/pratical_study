@@ -28,6 +28,3 @@ Arquivos importantes (resumo):
 Boas práticas de estudo:
 - Compile cada exemplo separadamente e leia os comentários dentro dos arquivos.
 - Extraia funções e escreva testes simples quando possível.
-
-Contribuições:
-- Adicione novos exercícios em `sintax-exercicies/` com nomes descritivos.
