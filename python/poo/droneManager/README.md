@@ -103,7 +103,7 @@ Sua missão é escrever o código Python que implemente essa estrutura, obedecen
 #### Regra 1: A Classe Abstrata `Acao` (O Contrato)
 
 * Deve herdar de `ABC` (Abstract Base Class).
-* **Encapsulamento Estrito:** Deve possuir dois atributos estritamente privados: `__progresso` (float, inicializado em `0.0`) e `__estado` (string, inicializado em `"AGUARDANDO"`).
+* **Encapsulamento Estrito:** Deve possuir dois atributos estritamente privados: `__progresso` (float, inicializado em `0.0`) e `__estado` (string, inicializado em `"AGUARDANDO"`). 
 * **Properties (Getters e Setters):**
 * Você deve criar `@property` para ler o `progresso` e o `estado`. O mundo externo **não pode** alterar o estado diretamente (não deve haver um setter para estado).
 * O setter de `progresso` deve conter uma lógica de validação:
