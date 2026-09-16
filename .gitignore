@@ -1,1 +1,34 @@
 venv
+*.pyc
+*.mp3
+*.wav
+
+# VS Code / editor settings
+.vscode/
+!.vscode/extensions.json
+
+# Local environment / generated files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Java caches / build outputs
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+.classpath
+.project
+.settings/
+
+*.log
