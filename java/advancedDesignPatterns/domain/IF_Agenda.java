@@ -17,16 +17,21 @@ class AgendaList implements IF_Agenda {
         IF_Contato contato = new Contato();
         contato.setTelefone(telefone);
         return listaContato.indexOf(contato);
+        // for (int i = 0; i < listaContato.size(); i++) {
+        //     if (contato.getTelefone() != null && contato.getTelefone().equals(telefone)) {
+        //         return listaContato.indexOf(telefone);
+        //     } 
+        // }
     }
 
     @Override
     public IF_Contato getContato(String telefone) {
-        int index = localizaContato(telefone);
-        // if (index != -1) {
-        //     return listaContato.get(index);
-        // }
-        // return null;
-        return (localizaContato(telefone) != -1) ? listaContato.get(index) : null;
+        IF_Contato contato = new Contato();
+        contato.setTelefone(telefone);
+        if (this.listaContato.indexOf(contato) != -1) {
+            return this.listaContato.get(this.listaContato.indexOf(contato));
+        }
+        return null;
     }
 
     @Override
@@ -35,10 +40,8 @@ class AgendaList implements IF_Agenda {
         if (index == -1) {
             listaContato.add(contato);
             return true;
-        } else {
-
-            return false;
         }
+        return false;
     }
 
     @Override
@@ -47,9 +50,8 @@ class AgendaList implements IF_Agenda {
         if (index != -1) {
             listaContato.remove(index);
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     @Override
@@ -62,7 +64,7 @@ class AgendaList implements IF_Agenda {
         Iterator<IF_Contato> it = listaContato.iterator();
         while (it.hasNext()) {
             IF_Contato contato = it.next();
-            resultado += contato.getNome() + contato.getTelefone() + "\n";
+            resultado += contato.getNome() + " - " + contato.getTelefone() + "\n";
         }
         return resultado;
     }
