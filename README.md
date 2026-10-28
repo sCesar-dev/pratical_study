@@ -1,58 +1,58 @@
-# Study — Syntax, DS and OOP (C / C++ / Python / Java)
+# 📚 Practical Study Repository
 
-Repository for study examples and exercises on syntax, data structures (DS) and object-oriented programming (OOP) in C, C++, Python and Java.
+Welcome to my **Practical Study** repository! This is a centralized space where I document my learning journey, store exercises, examples, and projects across various domains of Computer Science, Software Engineering, Data, and Mathematics.
 
-## Main structure
-- [c/README.md](c/README.md) — C exercises  
-- [c++/README.md](c++/README.md) — C++ exercises and data structures  
-- [java/README.md](java/README.md) — Java examples  
-- python/ — Python scripts and exercises
+This repository is divided into several multifaceted areas, reflecting my continuous learning path.
 
-## How to compile/run (quick examples)
-- C:
-  - gcc example.c -o example && ./example
-- C++:
-  - g++ -std=c++17 example.cpp -o example && ./example
-- Java:
-  - javac Example.java && java Example
-- Python:
-  - python3 example.py
+---
 
-## Examples and reference files
-- C:
-  - Weighted average exercise: [c/sintax-exercicies/3-values.c](c/sintax-exercicies/3-values.c) — `main`
-- C++ (programming and DS):
-  - Binary search tree (BST): [c++/Binary Tree/Arvore.cpp](c++/Binary Tree/Arvore.cpp) — methods like `Arvore::inserir`, `Arvore::alturaRecursiva`
-  - Circular list: [c++/dataStructures/ListaCircular.cpp](c++/dataStructures/ListaCircular.cpp) — `ListaDupla::imprimeLista`
-  - Reverse array: [c++/programming-language-I/function-and-array/inverseArray.cpp](c++/programming-language-I/function-and-array/inverseArray.cpp) — `inverteArr`
-- Python:
-  - Bubble sort: [python/dataStructures/sort/bubble_sort.py](python/dataStructures/sort/bubble_sort.py) — `bubble_sort`
-  - Resource lock example: [python/poo/lockResource.py](python/poo/lockResource.py) — `LockResource` class
-- Java:
-  - Module overview: [java/README.md](java/README.md)
+## 🚀 Study Areas
 
-## Study best practices
-- Compile and run each example separately.  
-- Read file comments to understand intent.  
-- Turn snippets into small functions or unit tests when possible.
+Here are the main fields of study currently covered in this repository:
 
-## Summary of important code
-Quick list of the most relevant study files with links:
+### 🖥️ Programming Languages & Data Structures
+- **[C](c/)**: Syntax exercises, fundamentals, algorithms, and procedural programming.
+- **[C++](c++/)**: Object-Oriented Programming (OOP), Data Structures (Lists, Trees, Graphs), and memory management.
+- **[Java](java/)**: OOP concepts, application structure, and Java ecosystem examples.
+- **[Python](python/)**: Scripts, Data Structures, OOP, sorting algorithms, and general purpose programming.
 
-- C
-  - c/sintax-exercicies/3-values.c — weighted average / I/O
-  - c/algorithms/README.md — (if present) algorithms in C
-- C++
-  - c++/Binary Tree/Arvore.cpp — BST (insert, remove, height, traversals)
-  - c++/dataStructures/ListaCircular.cpp — circular / doubly linked list
-  - c++/programming-language-I/function-and-array/inverseArray.cpp — arrays and functions
-- Python
-  - python/dataStructures/sort/bubble_sort.py — sorting implementations
-  - python/poo/lockResource.py — OOP example with resource locking
-- Java
-  - java/README.md — Java overview and examples
-  - java/src/ — look for classes and tests
+### 📊 Data Ecosystem
+- **[Data Analysis](dataAnalisys/)**: Exploratory data analysis, ETL pipelines, working with Pandas, data scraping, and data visualization (e.g., PowerBI). Includes real-world dataset analysis like inflation and student burnout.
+- **[Data Engineering](dataEngenieering/)**: Data pipelines, database setup, Docker architectures, and infrastructure for large-scale data processing.
+- **[Data Science](dataScience/)**: Machine learning models, statistical modeling, and advanced data manipulation.
 
-## Contributions / personal organization
-- Add new exercises per language folder (e.g., c/, c++/, python/, java/).  
-- Use descriptive file names and clear comments.
+### 🧮 Mathematics & Theory
+- **[Mathematics](math/)**: Linear algebra, statistics, calculus, and foundational math applied to computer science (includes notes and Excalidraw diagrams).
+
+### 👁️ Advanced Topics
+- **[Computational Vision](computational_vision/)**: Image processing, computer vision algorithms, and related projects.
+
+---
+
+## 🛠️ How to Compile/Run (Quick Guide)
+
+- **C**: 
+  ```bash
+  gcc example.c -o example && ./example
+  ```
+- **C++**: 
+  ```bash
+  g++ -std=c++17 example.cpp -o example && ./example
+  ```
+- **Java**: 
+  ```bash
+  javac Example.java && java Example
+  ```
+- **Python**: 
+  ```bash
+  python3 example.py
+  ```
+
+## 💡 Best Practices Adopted
+
+- **Organization**: Each main domain has its dedicated directory to keep subjects isolated and clean.
+- **Documentation**: Code is documented with comments to explain intent and logic.
+- **Modularity**: Snippets are turned into small, testable functions when possible.
+
+## 🤝 Contributions
+This is primarily a personal study repository, but feel free to explore, learn from the examples, or suggest improvements!
