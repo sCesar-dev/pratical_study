@@ -32,3 +32,5 @@ build/
 .settings/
 
 *.log
+.commit_msg
+
